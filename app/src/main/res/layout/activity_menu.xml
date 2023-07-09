@@ -14,7 +14,8 @@
         android:background="@android:color/transparent"
         android:drawableRight="@drawable/img_teenagers_128"
         android:textColor="#fff"
-        android:text="Master Pemakai"></Button>
+        android:text="Forex"
+        android:id="@+id/ForexMainActivity"></Button>
     <Button
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
