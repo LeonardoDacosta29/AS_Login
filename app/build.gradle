@@ -46,4 +46,7 @@ dependencies {
 
 //    untuk login + forex
     implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
+
+//    untuk login + cuaca
+    implementation 'com.squareup.picasso:picasso:2.5.2'
 }

@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_columnWeight="1"
         android:background="@android:color/transparent"
-        android:drawableRight="@drawable/img_teenagers_128"
+        android:drawableRight="@drawable/img_dollar_128"
         android:textColor="#fff"
         android:text="Forex"
         android:id="@+id/ForexMainActivity"></Button>
@@ -25,5 +25,14 @@
         android:drawableLeft="@drawable/student"
         android:text="Master Mahasiswa"
         android:id="@+id/TampilMahasiswaActivity"/>
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_columnWeight="1"
+        android:background="@android:color/transparent"
+        android:textColor="#fff"
+        android:drawableRight="@drawable/img_weather_lightning_128"
+        android:text="Cuaca"
+        android:id="@+id/tampilCuacaButton"/>
 
 </GridLayout>

@@ -16,8 +16,8 @@ import cz.msebera.android.httpclient.Header;
 
 public class MenuActivity extends AppCompatActivity {
 
-    private Button _tampilMahasiswaButton, _tampilForexButton;
-//    private Intent _menuIntent, _tampilForexIntent;
+    private Button _tampilMahasiswaButton, _tampilForexButton, _tampilCuacaButton;
+//    private Intent _menuIntent, _tampilForexIntent, _tampilCuacaIntent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,6 +40,16 @@ public class MenuActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), ForexMainActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        _tampilCuacaButton = findViewById(R.id.tampilCuacaButton);
+
+        _tampilCuacaButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), CuacaMainActivity.class);
                 startActivity(intent);
             }
         });
